@@ -1,0 +1,19 @@
+.tooltip {
+	position: fixed;
+	top: 10px;
+	left: 98%;
+}
+
+.tooltip-content {
+	display: none;
+	position: relative;
+	right: 100%;
+}
+
+.tooltip:hover .tooltip-content {
+	display: block;
+	background: black;
+	color: white;
+	border-radius: 10px;
+	padding: 5px;
+}
